@@ -1,2 +1,2 @@
 # goit-markup-hw-03
-DZ_3 (webstudio+porfolio(html+css+box+Flexbox)
+DZ_3 webstudio+porfolio(html+css+box+Flexbox)

@@ -9,7 +9,7 @@
   box-sizing: inherit;
 } */
 
-*,
+* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -22,6 +22,38 @@
   --main-color-text: #212121;
   --second-color-text: #757575;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* .section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+} */
 /* убираем подчёркивание с ссылок */
 a {
   text-decoration: none;
@@ -49,6 +81,16 @@ ul {
   overflow: hidden;
 }
 
+/* контейнер для логотипа */
+.container-logo {
+  display: inline-block;
+  /* box-sizing: border-box; */
+  min-width: 145px;
+  margin-top: 24px;
+  margin-right: 1240px;
+  margin-left: 215px;
+}
+
 /* логотип web */
 .header-logo-web {
   font-family: var(--secondary-font);
@@ -68,6 +110,16 @@ ul {
   line-height: 31px;
   color: #000000;
 }
+/* контейнер для мыло + телефон */
+.container-address {
+  display: inline-block;
+  /* box-sizing: border-box; */
+  min-width: 122px;
+  margin-top: 32px;
+  margin-right: 1263px;
+  margin-left: 215px;
+}
+
 /*  мыло + телефон + ховер */
 .header-email-link {
   text-decoration: none;
@@ -105,9 +157,14 @@ ul {
 /* hero */
 .hero {
   background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  margin-top: 80;
 }
 
 .hero-title {
+  /* display: inline-block; */
+  /* text-align: center; */
   font-family: var(--maine-font);
   font-weight: 900;
   font-size: 44px;
@@ -120,13 +177,16 @@ ul {
 
 /* кнопка для hero - главная страница  */
 .hero-button {
+  display: inline-block;
+  /* display: flex; */
+  padding: 10px 32px;
   font-family: var(--maine-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
   align-items: center;
   text-align: center;
+  min-width: 200px;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
@@ -190,7 +250,12 @@ ul {
   line-height: 19px;
   color: var(--second-color-text);
 }
-
+/*  наша команда container */
+.container-ourteam {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* кнопки (фильтр) для портфолио  */
 .btn {
   font-family: var(--maine-font);

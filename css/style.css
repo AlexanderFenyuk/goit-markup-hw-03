@@ -120,7 +120,7 @@ ul {
 /* контейнер  */
 .header {
   box-sizing: border-box;
-  /* background-color: var(--header-bakeground-color); */
+  background-color: #fff;
   width: 1600px;
   /* height: 80px;  */
   margin: 0;
@@ -129,14 +129,6 @@ ul {
   align-items: center;
   padding: 0px 215px 0px 215px;
 }
-/* контейнер для мыло + телефон 
-.container-address {
-  display: inline-block;
-  min-width: 122px;
-  margin-top: 32px;
-  margin-right: 1263px;
-  margin-left: 215px;
-}  */
 
 /*  мыло + телефон + ховер */
 .header-email-link {
@@ -147,6 +139,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   color: var(--second-color-text);
+  margin-right: 50px;
 }
 .header-tel-link {
   text-decoration: none;
@@ -174,10 +167,11 @@ ul {
 
 /* hero */
 .hero {
+  box-sizing: border-box;
   background-color: #2f303a;
   width: 1600px;
   height: 600px;
-  /* margin-top: 80; */
+  text-align: center;
 }
 
 .hero-title {
@@ -198,9 +192,10 @@ ul {
 .hero-button {
   display: inline-block;
   padding: 10px 32px;
-  margin: 30px 700px 200px 700px;
+  margin: 0px 700px 294px 700px;
   text-align: center;
   min-width: 201px;
+  min-height: 50px;
   font-family: var(--maine-font);
   font-weight: 700;
   font-size: 16px;
@@ -310,7 +305,6 @@ ul {
   font-size: 14px;
   line-height: 1.142;
   padding-left: 0;
-  margin: 0;
   display: flex;
 }
 .navigation-list-item:not(:last-child) {

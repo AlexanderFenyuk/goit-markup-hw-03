@@ -21,6 +21,7 @@
   --accent-color: #2196f3;
   --main-color-text: #212121;
   --second-color-text: #757575;
+  --separatory-line: #ececec;
 }
 
 h1,
@@ -81,14 +82,20 @@ ul {
   overflow: hidden;
 }
 
+.page {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid tomato; */
+}
 /* контейнер для логотипа */
 .container-logo {
   display: inline-block;
-  /* box-sizing: border-box; */
   min-width: 145px;
   margin-top: 24px;
-  margin-right: 1240px;
-  margin-left: 215px;
+  margin-right: 93px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 /* логотип web */
@@ -110,15 +117,26 @@ ul {
   line-height: 31px;
   color: #000000;
 }
-/* контейнер для мыло + телефон */
+/* контейнер  */
+.header {
+  box-sizing: border-box;
+  /* background-color: var(--header-bakeground-color); */
+  width: 1600px;
+  /* height: 80px;  */
+  margin: 0;
+  border-bottom: 1px solid var(--separatory-line);
+  display: flex;
+  align-items: center;
+  padding: 0px 215px 0px 215px;
+}
+/* контейнер для мыло + телефон 
 .container-address {
   display: inline-block;
-  /* box-sizing: border-box; */
   min-width: 122px;
   margin-top: 32px;
   margin-right: 1263px;
   margin-left: 215px;
-}
+}  */
 
 /*  мыло + телефон + ховер */
 .header-email-link {
@@ -276,6 +294,27 @@ ul {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-color-text);
+  display: block;
+  text-align: -webkit-match-parent;
+  min-width: 294px;
+  margin-right: 331px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.navigation-list {
+  list-style: none;
+  font-family: var(--maine-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /*ссылки навигации*/

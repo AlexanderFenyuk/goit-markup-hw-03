@@ -29,7 +29,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -37,10 +38,6 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-}
-
-p {
-  margin: 0;
 }
 
 img {
@@ -51,10 +48,6 @@ img {
   font-style: normal;
 }
 
-/* .section {
-  padding-top: 130px;
-  padding-bottom: 130px;
-} */
 /* убираем подчёркивание с ссылок */
 a {
   text-decoration: none;

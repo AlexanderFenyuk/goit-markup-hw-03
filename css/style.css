@@ -203,7 +203,7 @@ ul {
 .container-features {
   display: flex;
   min-width: 1170px;
-  margin-top: 94px;
+  margin-top: 50px;
   margin-left: 215px;
   margin-right: 215px;
 }
@@ -224,7 +224,6 @@ ul {
   line-height: 16px;
   color: var(--main-color-text);
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .features-item-text {
   font-family: var(--maine-font);
@@ -233,6 +232,8 @@ ul {
   font-size: 14px;
   line-height: 24px;
   color: #757575;
+
+  margin-top: 10px;
 }
 /*  Чем мы занимаемся head */
 .whatwedo-head {
@@ -269,7 +270,15 @@ ul {
   margin-top: 188px;
   margin-bottom: 0px;
 }
-/* Наша команда list*/
+/* .container-item {
+  display: flex;
+} */
+
+.container-itemli {
+  display: flex;
+  flex-direction: column;
+}
+/* Наша команда list h3*/
 .ourteam-card-head {
   font-family: var(--maine-font);
   font-style: normal;
@@ -278,6 +287,12 @@ ul {
   line-height: 19px;
   color: var(--main-color-text);
 }
+
+.ourteam-img {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .ourteam-card-text {
   font-family: var(--maine-font);
   font-style: normal;
@@ -289,9 +304,9 @@ ul {
 /*  наша команда container */
 .container-ourteam {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 50px;
 }
+
 /* кнопки (фильтр) для портфолио  */
 .btn {
   font-family: var(--maine-font);

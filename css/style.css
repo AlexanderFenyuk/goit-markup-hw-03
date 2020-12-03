@@ -216,7 +216,6 @@ ul {
   padding: 0px;
 }
 
-/*  Особенности */
 .features-item-head {
   font-family: var(--maine-font);
   font-style: normal;
@@ -244,7 +243,19 @@ ul {
   line-height: 42px;
   text-align: center;
   color: var(--main-color-text);
+
+  margin-top: 94px;
+  margin-bottom: 0px;
 }
+
+.container-whatwedo {
+  display: flex;
+  min-width: 1170px;
+  margin-top: 50px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
 /* Наша команда head*/
 .ourteam-head {
   font-family: var(--maine-font);
@@ -254,6 +265,9 @@ ul {
   line-height: 42px;
   text-align: center;
   color: var(--main-color-text);
+
+  margin-top: 188px;
+  margin-bottom: 0px;
 }
 /* Наша команда list*/
 .ourteam-card-head {

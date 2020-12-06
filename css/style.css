@@ -339,8 +339,8 @@ ul {
   /* width: 611px;
   height: 54px; */
   list-style: none;
-  margin-left: 295px;
-  /* margin-right: auto; */
+  justify-content: center;
+  /* margin-left: 295px; */
   margin-bottom: 16px;
 }
 

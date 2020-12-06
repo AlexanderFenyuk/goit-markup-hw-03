@@ -42,29 +42,32 @@
             </address>
         </header>
     </div>
+
 <main>
 <h1 class="visually-hidden">Портфолио</h1>
 
-<section>
-    <div class="container">
+
+<section class="portfolio-section">
+   <div class="container"> 
 <h2 class="visually-hidden">Список портфолио</h2>
 <!--заглавие фильтр-->
 
 <!-- !!! задать в спокойном состоянии фон и цвет и hover + focus -->
 <ul class="portfolio-navigation-list">
-    <li> <button class="btn" type="button">Все</button>
+    <li> <button type="button" class="pbutton all btn">Все</button>
     </li>
-    <li> <button class="btn" type="button">Веб-сайты</button>
+    <li> <button type="button" class="pbutton website btn">Веб-сайты</button>
     </li>
-    <li> <button class="btn" type="button">Приложения</button>
+    <li> <button type="button" class="pbutton application btn">Приложения</button>
     </li>
-    <li> <button class="btn" type="button">Дизайн</button>
+    <li> <button type="button" class="pbutton design btn">Дизайн</button>
     </li>
-    <li> <button class="btn" type="button">Маркетинг</button>
+    <li> <button type="button" class="pbutton marketing btn">Маркетинг</button>
     </li>
 </ul>
 
-<ul>
+<!---проэкты--> 
+<ul class="projects-section">
     <li>
         <a href="#">
         <img src="images/01technocryak.jpg" alt="Ноутбук с изображением веб сайта" width="370" height="294" >
@@ -133,7 +136,7 @@
 </div>
 </section>
    
-     </main>
+ </main>
 
 <!-- Подвал -->
 <footer class="footer">
@@ -156,5 +159,4 @@
     </div>
 </footer>
 </body>
-
 </html>

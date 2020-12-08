@@ -85,9 +85,7 @@ ul {
 .container-logo {
   display: inline-block;
   min-width: 145px;
-  /* margin-top: 24px; */
   margin-right: 93px;
-  /* margin-bottom: 25px; */
   text-align: center;
 }
 
@@ -111,14 +109,16 @@ ul {
   color: #000000;
 }
 /* контейнер */
-.header .container {
-  box-sizing: border-box;
-  background-color: #fff;
+.header {
   border-bottom: 1px solid var(--separatory-line);
-  display: flex;
-  align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
 }
 
 /*  мыло + телефон + ховер */
@@ -160,9 +160,10 @@ ul {
 .hero {
   box-sizing: border-box;
   background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 280px;
   text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -175,6 +176,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -210,8 +212,10 @@ ul {
 }
 /*  Особенности */
 .features {
+  padding-top: 94px;
+}
+.features-list {
   display: flex;
-  margin-top: 94px;
 }
 .indent {
   margin-right: 30px;
@@ -245,6 +249,11 @@ ul {
 }
 
 /*  Чем мы занимаемся head */
+
+.whatwedo {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .whatwedo-head {
   font-family: var(--maine-font);
   font-style: normal;
@@ -253,9 +262,6 @@ ul {
   line-height: 42px;
   text-align: center;
   color: var(--main-color-text);
-
-  margin-top: 94px;
-  margin-bottom: 0px;
 }
 
 .whatwedo-list {
@@ -266,7 +272,6 @@ ul {
 /* Наша команда head*/
 .ourteam {
   background: #f5f4fa;
-  margin-top: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -404,9 +409,9 @@ ul {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-color-text);
+  width: 294px;
 
   display: block;
-  width: 294px;
   margin-right: 331px;
 }
 

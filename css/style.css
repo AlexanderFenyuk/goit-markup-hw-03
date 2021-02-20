@@ -108,6 +108,7 @@ ul {
   line-height: 31px;
   color: #000000;
 }
+
 /* контейнер */
 .header {
   border-bottom: 1px solid var(--separatory-line);
@@ -249,7 +250,6 @@ ul {
 }
 
 /*  Чем мы занимаемся head */
-
 .whatwedo {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -299,6 +299,7 @@ ul {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
 }
+
 /* Наша команда list h3*/
 .ourteam-card-head {
   font-family: var(--maine-font);
@@ -323,6 +324,7 @@ ul {
   color: var(--second-color-text);
   margin-top: 10px;
 }
+
 /*  наша команда container */
 .container-ourteam {
   text-align: center;
@@ -383,6 +385,7 @@ ul {
   margin-right: 8px;
   min-height: 38px;
 }
+
 /* Проекты  */
 .projects-section {
   display: flex;
